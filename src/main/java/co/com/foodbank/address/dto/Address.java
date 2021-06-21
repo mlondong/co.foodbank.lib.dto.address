@@ -9,6 +9,7 @@ public class Address implements IAddress {
 
 
     public String id;
+
     public String streetName;
     public String streetNumber;
     public String postalCode;

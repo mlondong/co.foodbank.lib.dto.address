@@ -1,5 +1,6 @@
 package co.com.foodbank.address.dto;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import co.com.foodbank.country.dto.Country;
 
 public interface IAddress {
@@ -14,5 +15,6 @@ public interface IAddress {
 
     public String getStreetName();
 
+    @JsonIgnore(value = true)
     public String getId();
 }
