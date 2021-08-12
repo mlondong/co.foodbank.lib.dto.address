@@ -19,6 +19,16 @@
 	</properties>
 
 	<dependencies>
+
+
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.20</version>
+		</dependency>
+
+		<!-- DTOs -->
 		<dependency>
 			<groupId>co.com.foodbank.country</groupId>
 			<artifactId>co.foodbank.lib.dto.country</artifactId>
@@ -30,7 +40,9 @@
 			<artifactId>co.foodbank.lib.util</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-
+		
+		<!-- DTOs -->
+		
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
