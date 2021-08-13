@@ -1,4 +1,4 @@
-package co.com.foodbank.address.interfaces;
+package co.com.foodbank.address.dto.interfaces;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import co.com.foodbank.country.dto.Country;

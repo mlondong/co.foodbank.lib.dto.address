@@ -1,6 +1,6 @@
 package co.com.foodbank.address.dto;
 
-import co.com.foodbank.address.interfaces.IAddress;
+import co.com.foodbank.address.dto.interfaces.IAddress;
 import co.com.foodbank.country.dto.Country;
 import lombok.AllArgsConstructor;
 import lombok.Data;
