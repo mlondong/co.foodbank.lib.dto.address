@@ -15,19 +15,19 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class AddressDTO {
 
-    @Size(min = 3, max = 10,
+    @Size(min = 3, max = 20,
             message = "Wrong definition for Street name in address.")
     public String streetName;
 
-    @Size(min = 3, max = 10,
+    @Size(min = 3, max = 20,
             message = "Wrong definition for Street number in address.")
     public String streetNumber;
 
-    @Size(min = 3, max = 5,
+    @Size(min = 3, max = 10,
             message = "Wrong definition for postal code in address.")
     public String postalCode;
 
-    @Size(min = 3, max = 10,
+    @Size(min = 3, max = 15,
             message = "Wrong definition for district in address.")
     public String district;
 
